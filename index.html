@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend Deca" type='text/css'>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big Shoulders Display" type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca" type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display" type='text/css'>
   
   
   <title>Frontend Mentor | 3-column preview card component</title>
@@ -14,16 +14,14 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     body {
-      background-color: aliceblue;
-      
-      
+      background-color: hsl(0, 0%, 95%); 
     }
     
     .main-con {
       display: flex;
       flex-direction: row;
       margin: auto;
-      width: 700px;
+      width: 770px;
       margin-top: 150px;
       margin-bottom: 150px;
       height: 530px;
@@ -66,9 +64,8 @@
 
      .title {
       padding-top: 5px;
-      font-size: medium;
-      color: aliceblue;
-      font-size: 45px;
+      font-size: 32px;
+      color: hsl(0, 0%, 95%);
       font-weight: 700;
       padding-left: 7%;
       padding-right: 7%;
@@ -76,17 +73,16 @@
     }
 
      .text {
-      font-size: 16px;
-      
-      color: rgb(240, 248, 255);
+      font-size: 17px;
+      color: hsla(0, 0%, 100%, 0.75);
       font-weight: 300;
-      padding-left: 7%;
-      padding-right: 7%;
+      padding-left: 9%;
+      padding-right: 9%;
       font-family: "Big Shoulders Display";
     }
 
      .learn {
-      color: rgb(240, 248, 255);
+      color: hsl(0, 0%, 95%);
       position: relative;
       bottom: 20px;
       font-size: 17px;
@@ -99,10 +95,10 @@
     .main-button {
       height: 39px;
       width: 105px;
-      margin-top: 35px;
-      background-color: aliceblue;
+      margin-top: 45px;
+      background-color: hsl(0, 0%, 95%);
       border-style: solid;
-      border-color: aliceblue;
+      border-color: hsl(0, 0%, 95%);
       color: black;
       border-radius: 4%;
       text-align: center;
@@ -111,21 +107,19 @@
       padding-top: 15px;
     }
 
-
-
     .item1 .main-button:hover {
       background-color: hsl(31, 77%, 52%);
-      color: aliceblue;
+      color: hsl(0, 0%, 95%);
     }
 
      .item2 .main-button:hover {
       background-color: hsl(184, 100%, 22%);
-      color: aliceblue;
+      color: hsl(0, 0%, 95%);
     }
 
      .item3 .main-button:hover {
       background-color: hsl(179, 100%, 13%);
-      color: aliceblue;
+      color: hsl(0, 0%, 95%);
     }
 
 
@@ -173,8 +167,8 @@
   <article class="main-con">
   
   <section class="item1">
-  <img class="image" src="images/icon-sedans.svg">
-  <p class="title">SEDANS</p>
+  <img class="image" src="images/icon-sedans.svg" alt="sedan icon">
+  <h1 class="title">SEDANS</h1>
   <p class="text">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
   or on your next road trip.</p>
   <div class="learn">
@@ -185,8 +179,8 @@
 
 
   <section class="item2">
-    <img class="image" src="images/icon-suvs.svg">
-  <p class="title">SUVS</p>
+    <img class="image" src="images/icon-suvs.svg" alt="suv icon">
+  <h1 class="title">SUVS</h1>
   <p class="text">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
   and off-road adventures.</p>
   <div class="learn">
@@ -197,8 +191,8 @@
 
 
   <section class="item3">
-    <img class="image" src="images/icon-luxury.svg">
-  <p class="title">LUXURY</p>
+    <img class="image" src="images/icon-luxury.svg" alt="luxury car icon">
+  <h1 class="title">LUXURY</h1>
   <p class="text">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
   rental and arrive in style.</p>
   <div class="learn">
